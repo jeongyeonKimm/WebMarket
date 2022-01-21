@@ -1,7 +1,7 @@
 <html>
 <head>
 <link rel = "stylesheet"
-	href = "https://maxcdn.bootstrapcd.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <title>Welcome</title>
 </head>
 <body>
