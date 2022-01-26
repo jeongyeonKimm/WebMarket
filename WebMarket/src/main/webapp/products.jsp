@@ -27,7 +27,9 @@
 			<div class="col-md-4">
 				<h3><%=product.getPname() %></h3>
 				<h3><%=product.getDescription() %></h3>
-				<h3><%=product.getUnitPrice() %>원</h3>
+				<p><%=product.getUnitPrice() %>원</p>
+				<p> <a href="./product.jsp?id=<%=product.getProductId() %>"
+				class="btn btn-secondary" role="button"> 상세 정보 &raquo;></a>
 			</div>
 			<%
 				}
