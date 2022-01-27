@@ -45,7 +45,7 @@ public class Product implements Serializable{
 		return unitPrice;
 	}
 	
-	public void setIcitPrice(Integer unitPrice) {
+	public void setUnitPrice(Integer unitPrice) {
 		this.unitPrice = unitPrice;
 	}
 	
