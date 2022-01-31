@@ -27,4 +27,16 @@
 		<error-code>404</error-code>
 		<location>/exceptionNoPage.jsp</location>
 	</error-page>
+	<filter>
+		<filter-name>LogFilter</filter-name>
+		<filer-class>filter.LogFilter</filer-class>
+		<init-param>
+			<param-name>filename</param-name>
+			<param-value>/logs/webmarket.log</param-value>
+		</init-param>
+	</filter>
+	<filter-mapping>
+		<filter-name>LogFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+	</filter-mapping>
 </web-app>
