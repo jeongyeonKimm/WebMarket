@@ -20,7 +20,7 @@
 			for (int i = 0; i < cookies.length; i++) {
 				Cookie thisCookie = cookies[i];
 				String n = thisCookie.getName();
-				if (n.equals("Shipping_cartId")
+				if (n.equals("Shipping_cartId"))
 					shipping_cartId = URLDecoder.decode((thisCookie.getValue()), "utf-8");
 				if (n.equals("Shipping_shippingDate"))
 					shipping_shippingDate = URLDecoder.decode((thisCookie.getValue()), "utf-8");
@@ -63,4 +63,5 @@
 			thisCookie.setMaxAge(0);
 			
 		response.addCookie(thisCookie);
+	}
 %>

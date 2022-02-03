@@ -64,7 +64,7 @@
 			</div>
 		</div>
 		<div>
-			<table class='table table-hover'>
+			<table class="table table-hover">
 				<tr>
 					<th class="text-center">도서</th>
 					<th class="text-center">#</th>
@@ -73,7 +73,7 @@
 				</tr>
 				<%
 					int sum = 0;
-					ArrayList<Product> cartList = (ArrayList<Product>) session.getAttribute("cartList");
+					ArrayList<Product> cartList = (ArrayList<Product>) session.getAttribute("cartlist");
 					if (cartList == null)
 						cartList = new ArrayList<Product>();
 					for (int i = 0; i < cartList.size(); i++) {
@@ -82,7 +82,7 @@
 						sum = sum + total;
 				%>
 				<tr>
-					<td class="text-center"><em><%= product.getPname() %></em></td>
+					<td class="text-center"><em><%= product.getPname() %> </em></td>
 					<td class="text-center"><%= product.getQuantity() %></td>
 					<td class="text-center"><%= product.getUnitPrice() %>원</td>
 					<td class="text-center"><%= total %>원</td>

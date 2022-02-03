@@ -46,8 +46,9 @@
 			</div>
 			<div class="form-group row">
 				<div class="col-sm-offset-2 col-sm-10">
-					<a href="./cart.jsp?cartId=<%= request.getParameter("cartId") %>" class="btn btn-secondary" value="등록" />
-					<a href="./checkOutCancelled.jsp" class="btn btn-decondary" role="button">취소</a>
+					<a href="./cart.jsp?cartId=<%= request.getParameter("cartId") %>" class="btn btn-secondary" role="button"> 이전 </a> 
+					<input type="submit" class="btn btn-primary" value="등록" />
+					<a href="./checkOutCancelled.jsp" class="btn btn-secondary" role="button">취소</a>
 				</div>
 			</div>
 		</form>

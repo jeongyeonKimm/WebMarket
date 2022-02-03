@@ -28,15 +28,15 @@
 		<location>/exceptionNoPage.jsp</location>
 	</error-page>
 	<filter>
-		<filter-name>LogFilter</filter-name>
-		<filer-class>filter.LogFilter</filer-class>
+		<filter-name>LogFileFilter</filter-name>
+		<filter-class>filter.LogFileFilter</filter-class>
 		<init-param>
 			<param-name>filename</param-name>
-			<param-value>/logs/webmarket.log</param-value>
+			<param-value>/Users/kim_jeongyeon/Documents/JSP/logs/webmarket.log</param-value>
 		</init-param>
 	</filter>
 	<filter-mapping>
-		<filter-name>LogFilter</filter-name>
+		<filter-name>LogFileFilter</filter-name>
 		<url-pattern>/*</url-pattern>
 	</filter-mapping>
 </web-app>

@@ -14,7 +14,7 @@
 	<jsp:include page="menu.jsp" />
 	<div class="jumbotron">
 		<div class="container">
-			<h1 class="display-3">장바구</h1>
+			<h1 class="display-3">장바구니</h1>
 		</div>
 	</div>
 	<div class="container">
@@ -32,7 +32,7 @@
 					<th>상품</th>
 					<th>가격</th>
 					<th>수량</th>
-					<th>재고</th>
+					<th>소계</th>
 					<th>비고</th>
 				</tr>
 				<%
