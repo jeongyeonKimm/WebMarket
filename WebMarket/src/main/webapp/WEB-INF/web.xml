@@ -37,6 +37,7 @@
 	</filter>
 	<filter-mapping>
 		<filter-name>LogFileFilter</filter-name>
-		<url-pattern>/*</url-pattern>
+		<url-pattern>/addProduct.jsp</url-pattern>
+		<url-pattern>/editProduct.jsp</url-pattern>
 	</filter-mapping>
 </web-app>
